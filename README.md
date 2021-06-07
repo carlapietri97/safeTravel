@@ -15,3 +15,21 @@ Al colocar el número de pasaporte en el sistema debe devolver todos los datos d
 
 Tecnologías usadas: Java, Spring Boot, Maven, SQL.
 
+
+ENGLISH:
+
+Information System created to control the health information from the passengers of an airline when traveling.
+
+In the system, passengers will be able to upload data such as: passport number, name and surname, flight number (with which origin city-destination city can be identified); test number which includes health data: temperature, if you had COVID before, swab result, if you have been vaccinated or not.
+
+This being the case, the system must perform the following tasks:
+
+The COVID test, mentioned above, must be from a laboratory certified by the airport, and if it is from a different one, the system must notify the client that the entered laboratory is not valid.
+
+The test must have been done 72 hours before the flight, if it has been done outside of that period, the passenger will not be able to board.
+
+For those passengers whose test indicates the result of their PCR as positive, they cannot board.
+
+When placing the passport number in the system you must return all the passenger data; including the data of your test, origin and destination of the flight and personal data.
+
+Technologies used: Java, Spring Boot, Maven, SQL.
