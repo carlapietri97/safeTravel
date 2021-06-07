@@ -13,5 +13,5 @@ Para aquellos pasajeros cuyo test indique el resultado de su PCR como positiva, 
 
 Al colocar el número de pasaporte en el sistema debe devolver todos los datos del pasajero; incluyendo los datos de su test, origen y destino del vuelo y datos personales.
 
-Tecnologías usadas: Java, Spring Boot, Maven.
+Tecnologías usadas: Java, Spring Boot, Maven, SQL.
 
